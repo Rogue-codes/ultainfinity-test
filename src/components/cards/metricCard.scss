@@ -1,0 +1,106 @@
+.card__container{
+    width: 100%;
+    display: flex;
+    margin-bottom: 2rem;
+    .card__left{
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        gap: 5%;
+        .card__icon{
+            width: 10%;
+        }
+        .card__content{
+            width: 90%;
+            margin-left: 5%;
+            border-bottom: 1px solid rgb(210, 204, 204);
+            .card__content__searches{
+                font-size: 1rem;
+                font-weight: 600;
+                line-height: 1.75rem;
+                span{
+                    padding: 3px 5px;
+                    background: #8BC34A;
+                    border-radius: 10px;
+                    color: #fff;
+                    margin-right:7px;
+                }
+                .redBg{
+                    background: red;
+                }
+                .greenBg{
+                    background: #8BC34A;
+                }
+            }
+            .red{
+                color: red;
+            }
+            .card__content__day{
+                display: flex;
+                margin-top: .4rem;
+                justify-content: start;
+                align-items: baseline;
+                gap: 5px;
+                .card__content__count{
+                    font-size: 1.25rem;
+                    font-weight: 400;
+                    line-height: 1.75rem;
+                }
+                .card__content__yesterday{
+                    font-size: .75rem;
+                    font-weight: 400;
+                    line-height: 1rem;
+                    color: #4A4A4A ;
+                }
+            }
+            .card__content__week{
+                margin-top: .4rem;
+                display: flex;
+                justify-content: start;
+                align-items: baseline;
+                gap: 5px;
+                color: #A0B0B9;
+                .card__content__count{
+                    font-size: 1.25rem;
+                    font-weight: 400;
+                    line-height: 1.75rem;
+                }
+                .card__content__friday{
+                    font-size: .75rem;
+                    font-weight: 400;
+                    line-height: 1rem;
+                }   
+            }
+        }
+    }
+    .card__right{
+        width: 50%;        
+        border-bottom: 1px solid rgb(210, 204, 204);
+        .red{
+            color: red;
+        }
+        h2{
+            font-weight: 600;
+            font-size: 1rem;
+            line-height: 1.75rem;
+        }
+        p{
+            font-weight: 400;
+            font-size: 0.75rem;
+            line-height: 1rem;
+            color: #A0B0B9;
+        }
+        small{
+            font-weight: 400;
+            font-size: 0.75em;
+            line-height: 17px;
+            color: #4A4A4A;
+        }
+        span{
+            font-weight: 400;
+            font-size: 0.75em;
+            line-height: 17px;
+            color: #2196F3 !important;
+        }
+    }
+}

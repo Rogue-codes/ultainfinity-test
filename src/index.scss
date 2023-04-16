@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Jost:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:wght@400;500;600;700;800;900;1000&family=Nunito+Sans:wght@400;600;700;900&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;700&family=Roboto+Mono:wght@400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background: #E5E5E5;
+  
+.status {
+  display: flex;
+  background-color: grey;
+  height: 10px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  ​ div {
+    height: 100%;
+  }
+}
+​ .details {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  ​ h2 {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    ​ .box {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+}
+

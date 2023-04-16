@@ -1,0 +1,27 @@
+.body__container{
+    width: 100%;
+    padding: 2px;
+    margin-top: 2.75rem;
+    .errors_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h2{
+            font-size: 1rem;
+            font-weight: 600;
+            line-height: 1.75rem;
+        }
+        p{
+            font-size: .75rem;
+            font-weight: 600;
+            color: #A0B0B9;
+            line-height: 1rem;
+        }
+    }
+    .cards__container{
+        margin-top: 2.75rem;
+        width: 100%;
+        padding: 5px;
+        padding: 9px 0px 9px 0px;
+    }
+}
