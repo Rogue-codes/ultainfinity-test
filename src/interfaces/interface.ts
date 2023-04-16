@@ -1,4 +1,4 @@
-export interface ErrorData {
+interface ErrorData {
   count: number;
   code: number | null;
 }

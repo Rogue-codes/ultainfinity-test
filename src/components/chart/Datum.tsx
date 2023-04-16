@@ -21,7 +21,7 @@ export default function Datum({ data }: CompProps) {
         <div className='datum__details'>
             {
                 data.map((datum, index) =>
-                    <p><div className='box' style={{backgroundColor : datum.colour}}></div>{datum.name} - {datum.percentage}%</p>)
+                    <p><div className='box' style={{backgroundColor : datum.colour, height:"10px", width:"10px", display:"inline-block", marginRight:"10px"}}></div>{datum.name} - {datum.percentage}%</p>)
             }
         </div>
 

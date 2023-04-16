@@ -79,9 +79,9 @@ export default function Body({ res, activeTab }: bodyProps) {
               res?.data[0].searches_previous_yesterday
             ) : activeTab === "Last 3 days" ? (
               res?.data[0].searches_previous_last_3days
-            ) : (
+            ) :  activeTab === "Last hour" || activeTab === "Today" ? (
               <small>N/A...</small>
-            )
+            ): null
           }
           day="Yesterday"
           weekCount={res?.data[0].searches_previous_last_3days}

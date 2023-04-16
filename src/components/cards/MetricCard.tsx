@@ -38,12 +38,12 @@ export default function MetricCard({img1, img2, category, categoryCount, categor
             </p>
           </div>
           <div className="card__content__day">
-            <p className="card__content__count">{daycount?.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</p>
+            <p className="card__content__count">{daycount}</p>
             <p className="card__content__yesterday">{activeTab}</p>
           </div>
 
           <div className="card__content__week">
-            <p className="card__content__count">{weekCount?.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</p>
+            <p className="card__content__count">{weekCount}</p>
             <p className="card__content__friday">{week}</p>
           </div>
         </div>
